@@ -1,0 +1,3 @@
+numbers_api:
+  url: "http://numbersapi.com/%{subject}"
+  default_text: "Ok, we are already working on adding information here..."

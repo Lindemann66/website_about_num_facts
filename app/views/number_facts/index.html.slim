@@ -1,0 +1,42 @@
+div.container-fluid
+  h1 Client api for http://numbersapi.com/, that shows
+
+  hr
+
+  p.lead 
+    b #Fragrment
+    |  (info as a sentence fragment)
+  pre
+    = @fragment
+
+  hr
+
+  p.lead
+    b #Notfound 
+    |  (some info about closest to the requested number if it is not found)
+  pre
+    = @notfound
+
+  hr
+
+  p.lead
+    b #Default
+    |  (some default info when requested number is not found)
+  pre
+    = @default
+
+  hr
+
+  p.lead
+    b #Min and max
+    |  (info about random number between min and max)
+  pre
+    = @min_and_max
+
+  hr
+
+  p.lead
+    b #Batch requests
+    |  (info about batch of numbers)
+  pre
+    = @batch_requests

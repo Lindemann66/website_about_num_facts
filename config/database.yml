@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  database: website_num_facts_dev
+  username: alexeyivanov # postgres
+
+test:
+  adapter: postgresql
+  database: website_num_facts_test
+  username: alexeyivanov # postgres
