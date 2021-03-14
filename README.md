@@ -1,3 +1,10 @@
 # README
 
-As a curious user I like numbers. I know NumbersAPI provides interesting facts about numbers. I have a personal website so I want to put some random facts there. Please create an API client for http://numbersapi.com/. I need a JSON response only so do not care about JSONP and plain text types. "Fragment", "Notfound", "Default", "Min and Max" functionality should be done but you can skip "Batch requests". Use whatever you want, any frameworks or libraries if you need something. Ask any questions if you want. When finished please send the client in any format: link to repository, archived file, plain text, old-school printed on paper source code.
+Required commands for application launching:
+- rbenv install 2.7.1
+- gem install bundler (gem install bundler -v "~>1.0")
+- bundle install
+- bundle exec rake db:create
+- bundle exec rails server
+
+To start viewing you need to open http://127.0.0.1:3000/
